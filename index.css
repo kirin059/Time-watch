@@ -1,0 +1,46 @@
+@import url("reset.css");
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-weight: bold;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    color: #fafafa;
+    background: linear-gradient(to right, rgb(12, 49, 63), rgb(71, 71, 59), rgb(71, 71, 59), rgb(12, 49, 63));
+}
+
+.timeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 50px 0;
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.clock {
+    margin-top: 180px;
+    font-size: 150px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    margin-top: 180px;
+    color: #fafafa;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
